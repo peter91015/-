@@ -1,0 +1,515 @@
+
+Linker Version 8.7.7.220718
+Input Object File: d:\htk\0530\MAIN.OBJ
+Input Object File: d:\htk\0530\STARTUP1_L.OBJ
+Input Object File: d:\htk\0530\LCD.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (d:\htk\0530\MAIN.OBJ)
+     00h     0002h     0013h    0012h      CODE               ltodaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0014h     0017h    0004h      CODE               @ISR_STM0_code (d:\htk\0530\MAIN.OBJ)
+     00h     0018h     001bh    0004h      CODE               itofaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     001ch     001fh    0004h      CODE               @ISR_ADC_code (d:\htk\0530\MAIN.OBJ)
+     00h     0020h     0042h    0023h      CODE               @start (d:\htk\0530\MAIN.OBJ)
+     00h     0043h     0078h    0036h      CODE               _ISR_STM0 (d:\htk\0530\MAIN.OBJ)
+     00h     0079h     00c9h    0051h      CODE               _ISR_ADC (d:\htk\0530\MAIN.OBJ)
+     00h     00d0h     00e5h    0016h      CODE               @builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00e6h     0110h    002bh      CODE               @builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0111h     0128h    0018h      CODE               @builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0129h     0168h    0040h      CODE               _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0169h     01a6h    003eh      CODE               @builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01a7h     01dah    0034h      CODE               @builtin_holtek_ftsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01dbh     020fh    0035h      CODE               _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0210h     0243h    0034h      CODE               _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0244h     0272h    002fh      CODE               _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0273h     0279h    0007h      CODE               _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     027ah     027fh    0006h      CODE               _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0280h     02cch    004dh      CODE               _update_p (d:\htk\0530\MAIN.OBJ)
+     00h     02cdh     02dfh    0013h      CODE               _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     02e0h     02e2h    0003h      CODE               _CROM2PROM (CROM2PROM)
+     00h     02e3h     0311h    002fh      CODE               _swap (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0312h     032ch    001bh      CODE               _compare (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     032dh     03edh    00c1h      CODE               _part (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     03eeh     044ah    005dh      CODE               _linsert (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     044bh     05e2h    0198h      CODE               _qsort (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     05e3h     0680h    009eh      CODE               _update_adv (d:\htk\0530\MAIN.OBJ)
+     00h     0681h     068eh    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     068fh     06a5h    0017h      CODE               _delay_ms (d:\htk\0530\LCD.OBJ)
+     00h     06a6h     06b2h    000dh      CODE               _LCD_Senddata (d:\htk\0530\LCD.OBJ)
+     00h     06b3h     06bfh    000dh      CODE               _LCD_Cmd (d:\htk\0530\LCD.OBJ)
+     00h     06c0h     073dh    007eh      CODE               _show_LCD (d:\htk\0530\MAIN.OBJ)
+     00h     073eh     0748h    000bh      CODE               _LCD_Reset (d:\htk\0530\LCD.OBJ)
+     00h     0749h     099dh    0255h      CODE               _main (d:\htk\0530\MAIN.OBJ)
+     00h     099eh     09bch    001fh      CODE               _builtin_holtek_mulsi3_isr1c (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     09bdh     0a25h    0069h      CODE               _bsearch (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0a26h     0a8dh    0068h      CODE               _get_p (d:\htk\0530\MAIN.OBJ)
+     00h     0a8eh     0aach    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0aadh     0afch    0050h      CODE               _get_adc (d:\htk\0530\MAIN.OBJ)
+     00h     0afdh     0b07h    000bh      CODE               _stm0_init (d:\htk\0530\MAIN.OBJ)
+     00h     0b08h     0b49h    0042h      CODE               @ROMDATA_BASE (d:\htk\0530\STARTUP1_L.OBJ)
+     00h     0080h     0080h    0001h      DATA     47        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     116       @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     118       @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     77        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     70        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     44        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     43        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     18        @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     008dh    0006h      DATA     46        ftdata1 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008eh     0090h    0003h      DATA     20.667    dtdata (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0091h     0097h    0007h      DATA     18        ftdata2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     0099h     0099h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     009ah     009ah    0001h      DATA     7         @data_rb14 (isr:ra~rh)
+     00h     009bh     009bh    0001h      DATA     7         @data_rc14 (isr:ra~rh)
+     00h     009ch     009ch    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     009dh     009dh    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     2         @data_rc1c (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     2         @data_rb1c (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     4         @data_rd1c (isr:ra~rh)
+     00h     00a1h     00a1h    0001h      DATA     4         @data_re1c (isr:ra~rh)
+     00h     00a2h     00a2h    0001h      DATA     4         @data_rf1c (isr:ra~rh)
+     00h     00a3h     00a3h    0001h      DATA     4         @data_rg1c (isr:ra~rh)
+     00h     00f4h     00f5h    0002h      DATA     7         @HCCINIT_s (d:\htk\0530\MAIN.OBJ)
+     00h     00f6h     00f8h    0003h      DATA     6         @HCCINIT_n2 (d:\htk\0530\MAIN.OBJ)
+     00h     00f9h     00f9h    0001h      DATA     5         @HCCINIT_d (d:\htk\0530\MAIN.OBJ)
+     00h     00fah     00fbh    0002h      DATA     4         @HCCINIT_adr (d:\htk\0530\MAIN.OBJ)
+     00h     00fch     00fch    0001h      DATA     4         @HCCINIT_key (d:\htk\0530\MAIN.OBJ)
+     00h     00fdh     00ffh    0003h      DATA     3         @HCCINIT_P (d:\htk\0530\MAIN.OBJ)
+     01h     00fah     00fdh    0004h      DATA     3         @HCCINIT_adv (d:\htk\0530\MAIN.OBJ)
+     01h     00feh     00feh    0001h      DATA     3         @HCCINIT_hold (d:\htk\0530\MAIN.OBJ)
+     01h     00ffh     00ffh    0001h      DATA     3         @HCCINIT_lcd_flag (d:\htk\0530\MAIN.OBJ)
+     02h     0080h     0080h    0001h      DATA     3         @HCCINIT_t_flag (d:\htk\0530\MAIN.OBJ)
+     02h     0081h     0082h    0002h      DATA     3         @HCCINIT_c (d:\htk\0530\MAIN.OBJ)
+     02h     0083h     0083h    0001h      DATA     2         @HCCINIT_adv_h_ind (d:\htk\0530\MAIN.OBJ)
+     02h     0084h     0084h    0001h      DATA     2         @HCCINIT_key_hold (d:\htk\0530\MAIN.OBJ)
+     02h     0085h     0086h    0002h      DATA     1         @HCCINIT_un2 (d:\htk\0530\MAIN.OBJ)
+     02h     0087h     0088h    0002h      DATA     1         @HCCINIT_n1 (d:\htk\0530\MAIN.OBJ)
+     02h     0089h     008ch    0004h      DATA     1         @HCCINIT_test (d:\htk\0530\MAIN.OBJ)
+     02h     008dh     0090h    0004h      DATA     0.75      @HCCINIT_off_text (d:\htk\0530\MAIN.OBJ)
+     02h     0091h     00a2h    0012h      DATA     0.3333    @HCCINIT_text2 (d:\htk\0530\MAIN.OBJ)
+     02h     00a3h     00c2h    0020h      DATA     0         @HCCINIT_adv_history (d:\htk\0530\MAIN.OBJ)
+     02h     00c3h     00ceh    000ch      DATA     0         @HCCINIT_P_set (d:\htk\0530\MAIN.OBJ)
+     02h     00cfh     00e0h    0012h      DATA     0         @HCCINIT_text (d:\htk\0530\MAIN.OBJ)
+     02h     00e1h     00e1h    0001h      DATA     0         @HCCINIT_t (d:\htk\0530\MAIN.OBJ)
+     02h     00e2h     00e3h    0002h      DATA     0         @HCCINIT_i (d:\htk\0530\MAIN.OBJ)
+     02h     00e4h     00e4h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     02h     00e5h     00e5h    0001h      DATA     2         @data_r31c (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00bch     00bch    0001h      LOCAL    1         _get_adc (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00bbh    000ch      LOCAL    3.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b3h    0004h      LOCAL    3         _get_p (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_ltod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00f4h     00f4h    0000h      LOCAL    0         @dummy (d:\htk\0530\MAIN.OBJ)
+     00h     00f0h     00f3h    0004h      LOCAL    3         _main (d:\htk\0530\MAIN.OBJ)
+     00h     00b4h     00b4h    0000h      LOCAL    0         _LCD_Reset (d:\htk\0530\LCD.OBJ)
+     00h     00b3h     00b3h    0001h      LOCAL    1         _LCD_Cmd (d:\htk\0530\LCD.OBJ)
+     00h     00b1h     00b2h    0002h      LOCAL    6         _delay_ms (d:\htk\0530\LCD.OBJ)
+     00h     00b0h     00b0h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b4h     00b5h    0002h      LOCAL    5         _show_LCD (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _update_p (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00b3h     00b3h    0001h      LOCAL    1         _LCD_Senddata (d:\htk\0530\LCD.OBJ)
+     00h     00c8h     00efh    0028h      LOCAL    0.6       _update_adv (d:\htk\0530\MAIN.OBJ)
+     01h     0080h     00f9h    007ah      LOCAL    0.8606    _qsort (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b6h     00c7h    0012h      LOCAL    4.1111    _linsert (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b0h     00b3h    0004h      LOCAL    4         _compare (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b0h     00b5h    0006h      LOCAL    5.6667    _swap (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b6h     00c1h    000ch      LOCAL    7.8333    _part (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b0h     00b5h    0006h      LOCAL    9.1667    _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_uitof (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_ftsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      LOCAL    0         @dummy20 (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _ISR_STM0 (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      LOCAL    0         @dummy28 (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      LOCAL    0         _ISR_ADC (d:\htk\0530\MAIN.OBJ)
+     00h     00a4h     00afh    000ch      LOCAL    3.0833    _builtin_holtek_mulsi3_isr1c (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b6h     00c5h    0010h      LOCAL    2.3125    _bsearch (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00b0h     00b0h    0000h      ILOCAL   0         _stm0_init (d:\htk\0530\MAIN.OBJ)
+     00h     00b0h     00b0h    0000h      ILOCAL   0         _builtin_holtek_ultod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      ILOCAL   0         _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      ILOCAL   0         _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      ILOCAL   0         _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b0h     00b0h    0000h      ILOCAL   0         _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     02e1h              _Crom2Prom
+     02e0h              _Crom2PromNext
+     0079h              _ISR_ADC
+     0043h              _ISR_STM0
+     06b3h              _LCD_Cmd
+     073eh              _LCD_Reset
+     06a6h              _LCD_Senddata
+     00fdh              _P
+     02c3h              _P_set
+     0686h              __DELAYY0_isr00
+     0685h              __DELAYY1_isr00
+     0684h              __DELAYY2_isr00
+     0683h              __DELAYY3_isr00
+     0682h              __DELAYY4_isr00
+     0681h              __DELAYY5_isr00
+     00fah              _adr
+     01fah              _adv
+     0283h              _adv_h_ind
+     02a3h              _adv_history
+     09bdh              _bsearch
+     016bh              _builtin_holtek_dtadd
+     011ch              _builtin_holtek_dtdecode1
+     0111h              _builtin_holtek_dtdecode2
+     0273h              _builtin_holtek_dtinf
+     0129h              _builtin_holtek_dtmul
+     0210h              _builtin_holtek_dtnorm
+     0169h              _builtin_holtek_dtsub
+     0124h              _builtin_holtek_dtzero
+     0127h              _builtin_holtek_dtzero1
+     008bh              _builtin_holtek_exp1
+     0094h              _builtin_holtek_exp2
+     008dh              _builtin_holtek_floatflag
+     01a9h              _builtin_holtek_ftadd
+     00dah              _builtin_holtek_ftdecode1
+     00d0h              _builtin_holtek_ftdecode2
+     027ah              _builtin_holtek_ftinf
+     01dbh              _builtin_holtek_ftmul
+     0244h              _builtin_holtek_ftnorm
+     00e6h              _builtin_holtek_ftol
+     01a7h              _builtin_holtek_ftsub
+     00e2h              _builtin_holtek_ftzero
+     00e4h              _builtin_holtek_ftzero1
+     0002h              _builtin_holtek_ltod
+     0088h              _builtin_holtek_mant1
+     008eh              _builtin_holtek_mant12p
+     0091h              _builtin_holtek_mant2
+     02cdh              _builtin_holtek_mulhi3_isr00
+     0a8eh              _builtin_holtek_mulsi3_isr00
+     00b6h              _builtin_holtek_mulsi3_isr00_2
+     099eh              _builtin_holtek_mulsi3_isr1c
+     00a4h              _builtin_holtek_mulsi3_isr1c_2
+     0095h              _builtin_holtek_prod
+     008ch              _builtin_holtek_signs
+     0018h              _builtin_holtek_uitof
+     0011h              _builtin_holtek_ultod
+     0281h              _c
+     0312h              _compare
+     00f9h              _d
+     068fh              _delay_ms
+     0aadh              _get_adc
+     0a26h              _get_p
+     00b0h              _get_p_2
+     01feh              _hold
+     02e2h              _i
+     00fch              _key
+     0284h              _key_hold
+     01ffh              _lcd_flag
+     03eeh              _linsert
+     00bdh              _linsert_2
+     0749h              _main
+     0287h              _n1
+     00f6h              _n2
+     028dh              _off_text
+     032dh              _part
+     044bh              _qsort
+     0180h              _qsort_2
+     00f4h              _s
+     06c0h              _show_LCD
+     0afdh              _stm0_init
+     02e3h              _swap
+     02e1h              _t
+     0280h              _t_flag
+     0289h              _test
+     02cfh              _text
+     0291h              _text2
+     0285h              _un2
+     05e3h              _update_adv
+     0280h              _update_p
+     0098h              r114
+     009ch              r11c
+     0099h              r214
+     009dh              r21c
+     02e4h              r314
+     02e5h              r31c
+     0080h              ra
+     0081h              rb
+     009ah              rb14
+     009fh              rb1c
+     0082h              rc
+     009bh              rc14
+     009eh              rc1c
+     0083h              rd
+     00a0h              rd1c
+     0084h              re
+     00a1h              re1c
+     0085h              rf
+     00a2h              rf1c
+     0086h              rg
+     00a3h              rg1c
+     0087h              rh
+     0b07h              startup_value_1
+
+     Address            Public by Value
+     0002h              _builtin_holtek_ltod
+     0011h              _builtin_holtek_ultod
+     0018h              _builtin_holtek_uitof
+     0043h              _ISR_STM0
+     0079h              _ISR_ADC
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              _builtin_holtek_mant1
+     008bh              _builtin_holtek_exp1
+     008ch              _builtin_holtek_signs
+     008dh              _builtin_holtek_floatflag
+     008eh              _builtin_holtek_mant12p
+     0091h              _builtin_holtek_mant2
+     0094h              _builtin_holtek_exp2
+     0095h              _builtin_holtek_prod
+     0098h              r114
+     0099h              r214
+     009ah              rb14
+     009bh              rc14
+     009ch              r11c
+     009dh              r21c
+     009eh              rc1c
+     009fh              rb1c
+     00a0h              rd1c
+     00a1h              re1c
+     00a2h              rf1c
+     00a3h              rg1c
+     00a4h              _builtin_holtek_mulsi3_isr1c_2
+     00b0h              _get_p_2
+     00b6h              _builtin_holtek_mulsi3_isr00_2
+     00bdh              _linsert_2
+     00d0h              _builtin_holtek_ftdecode2
+     00dah              _builtin_holtek_ftdecode1
+     00e2h              _builtin_holtek_ftzero
+     00e4h              _builtin_holtek_ftzero1
+     00e6h              _builtin_holtek_ftol
+     00f4h              _s
+     00f6h              _n2
+     00f9h              _d
+     00fah              _adr
+     00fch              _key
+     00fdh              _P
+     0111h              _builtin_holtek_dtdecode2
+     011ch              _builtin_holtek_dtdecode1
+     0124h              _builtin_holtek_dtzero
+     0127h              _builtin_holtek_dtzero1
+     0129h              _builtin_holtek_dtmul
+     0169h              _builtin_holtek_dtsub
+     016bh              _builtin_holtek_dtadd
+     0180h              _qsort_2
+     01a7h              _builtin_holtek_ftsub
+     01a9h              _builtin_holtek_ftadd
+     01dbh              _builtin_holtek_ftmul
+     01fah              _adv
+     01feh              _hold
+     01ffh              _lcd_flag
+     0210h              _builtin_holtek_dtnorm
+     0244h              _builtin_holtek_ftnorm
+     0273h              _builtin_holtek_dtinf
+     027ah              _builtin_holtek_ftinf
+     0280h              _t_flag
+     0280h              _update_p
+     0281h              _c
+     0283h              _adv_h_ind
+     0284h              _key_hold
+     0285h              _un2
+     0287h              _n1
+     0289h              _test
+     028dh              _off_text
+     0291h              _text2
+     02a3h              _adv_history
+     02c3h              _P_set
+     02cdh              _builtin_holtek_mulhi3_isr00
+     02cfh              _text
+     02e0h              _Crom2PromNext
+     02e1h              _Crom2Prom
+     02e1h              _t
+     02e2h              _i
+     02e3h              _swap
+     02e4h              r314
+     02e5h              r31c
+     0312h              _compare
+     032dh              _part
+     03eeh              _linsert
+     044bh              _qsort
+     05e3h              _update_adv
+     0681h              __DELAYY5_isr00
+     0682h              __DELAYY4_isr00
+     0683h              __DELAYY3_isr00
+     0684h              __DELAYY2_isr00
+     0685h              __DELAYY1_isr00
+     0686h              __DELAYY0_isr00
+     068fh              _delay_ms
+     06a6h              _LCD_Senddata
+     06b3h              _LCD_Cmd
+     06c0h              _show_LCD
+     073eh              _LCD_Reset
+     0749h              _main
+     099eh              _builtin_holtek_mulsi3_isr1c
+     09bdh              _bsearch
+     0a26h              _get_p
+     0a8eh              _builtin_holtek_mulsi3_isr00
+     0aadh              _get_adc
+     0afdh              _stm0_init
+     0b07h              startup_value_1
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     0b44h    35%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     0b44h    4%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0080h    100%
+     01h       0080h     0080h    100%
+     02h       0080h     0066h    79%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     0166h    8%
+
+Use Stack Count
+_get_adc: 1
+_get_p: 2
+_main: 5
+_ISR_STM0: 0
+_ISR_ADC: 1
+_bsearch: 1
+
+Call Tree
+    _get_adc
+        _builtin_holtek_mulsi3_isr00 (0)
+    _get_p
+        _builtin_holtek_ltod (0)
+        _builtin_holtek_dtmul (0)
+            _builtin_holtek_dtdecode (1)
+        _builtin_holtek_dtsubadd (0)
+            _builtin_holtek_dtdecode (1)
+    @dummy
+        _main (0)
+            _LCD_Reset (1)
+                _LCD_Cmd (2)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+            _delay_ms (1)
+                _builtin_holtek_delay_isr00 (2)
+            _show_LCD (1)
+                _LCD_Cmd (2)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _update_p (2)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _Crom2Prom (2)
+                _LCD_Senddata (2)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+            _update_adv (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _qsort (2)
+                    _linsert (3)
+                        _compare (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _swap (4)
+                            _Crom2Prom (5)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _part (3)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _compare (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _swap (4)
+                            _Crom2Prom (5)
+                    _builtin_holtek_mulhi3_isr00 (3)
+            _builtin_holtek_ltod (1)
+            _builtin_holtek_dtmul (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+            _update_p (1)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+            _builtin_holtek_uitof (1)
+            _builtin_holtek_ftsubadd (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftmul (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftsubadd (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+    @dummy20
+        _ISR_STM0 (0)
+    @dummy28
+        _ISR_ADC (0)
+            _builtin_holtek_mulsi3_isr1c (1)
+    _bsearch
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+        _builtin_holtek_mulhi3_isr00 (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'd:\htk\0530\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
