@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=U3 Old DesignItemId=LM2596S-5.0 New DesignItemId=LM2596T-5.0
+Change Component Footprint: Designator=U3 Old Footprint=TS5B_N New Footprint=T05D
+Change Component Comment : Designator=U3 Old Comment=LM2596S-5.0 New Comment=LM2596T-5.0
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

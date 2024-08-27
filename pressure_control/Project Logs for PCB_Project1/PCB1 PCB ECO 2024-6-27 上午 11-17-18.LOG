@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=VSYS 5V Pin=C6-2
+Added Pin To Net: NetName=VSYS 5V Pin=C14-1
+Added Pin To Net: NetName=VSYS 5V Pin=C15-2
+Added Pin To Net: NetName=VSYS 5V Pin=L1-2
+Added Pin To Net: NetName=VSYS 5V Pin=P3-1
+Added Pin To Net: NetName=VSYS 5V Pin=Q1-3
+Added Pin To Net: NetName=VSYS 5V Pin=R18-2
+Added Pin To Net: NetName=VSYS 5V Pin=R20-1
+Added Pin To Net: NetName=VSYS 5V Pin=U2-1
+Added Pin To Net: NetName=VSYS 5V Pin=U3-4
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
